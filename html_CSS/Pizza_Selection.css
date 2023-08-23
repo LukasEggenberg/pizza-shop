@@ -1,0 +1,108 @@
+html{
+    height: 100%;
+    position: relative;
+}
+
+
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: darkgrey;
+    background-image: url(../Pictures/backgroung_Grey.jpg)
+
+}
+main{
+    flex:1;
+}
+
+
+
+
+header {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-self: stretch;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main select {
+    height: 20px;
+}
+main div {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    border-style: solid;
+    align-items: center;
+    border-color: darkolivegreen;
+    background-color: rgba(150,120,90,0.5);
+
+}
+main .PSelect{
+    flex:1;
+    border: none;
+    margin-left: 20px;
+    background-color: unset;
+}
+header nav a:hover {
+    background-color: darkgrey;
+
+}
+
+main input {
+    height: 50px;
+    color: dimgray;
+    background-image: url(../Pictures/Shopping_Cart.jpg);
+
+}
+header > nav > a{
+    COLOR: White;
+
+    font-size: 50px;
+    text-decoration:none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+main > h1 {
+
+    color: darkolivegreen;
+    font-family: "Niagara Engraved";
+    text-align: center;
+    font-size: 100px;
+}
+main >  img {
+
+
+    align-self: center;
+}
+main > p> img {
+
+    margin-right: 100px;
+    align-self: center;
+
+}
+main > h2 {
+
+    color: White;
+    margin-right: 200px
+;
+}
+
+footer  {
+    background-color: cadetblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}

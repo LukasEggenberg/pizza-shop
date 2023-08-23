@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+
+    <link rel="stylesheet" type="text/css" href="Feedback.css">
+
+
+</head>
+<body>
+<header>
+    <nav>
+        <a href="Pizza-Shop.html"> Home </a>
+        <a href="Pizza_Selection.html"> Pizza</a>
+        <a href="Salad_Selections.html"> Salad</a>
+        <a href="Softdrinks_Selection.html"> Soft drinks</a>
+        <a href="Feedback.html"> Feedback</a>
+    </nav>
+</header>
+
+<main>
+
+    <h1>Feedback</h1>
+    <div class="mb-4 small">
+
+    </div>
+    <form name="feedback_form" id="feedback_form" method="post">
+        <label>What do you think about our pizza ?</label>
+        <div class="mb-5">
+            <div class="form-check mr-3">
+                <input class="form-check-input" type="radio" name="rating" id="rating_bad" value="bad">
+                <label class="form-check-label" for="rating_bad">
+                    Bad
+                </label>
+            </div>
+
+            <div class="form-check mx-3">
+                <input class="form-check-input" type="radio" name="rating" id="rating_good" value="good">
+                <label class="form-check-label" for="rating_good">
+                    Good
+                </label>
+            </div>
+
+            <div class="form-check mx-3">
+                <input class="form-check-input"  type="radio" name="rating" id="rating_excellent" value="excellent">
+                <label class="form-check-label" for="rating_excellent">
+                    Excellent!
+                </label>
+            </div>
+        </div>
+        <div class="mb-4">
+            <label class="form-label"  for="feedback_comments">Comments:</label>
+            <textarea class="form-control" required rows="6" name="comments" id="feedback_comments" ></textarea>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label class="form-label" for="feedback_name">Your Name:</label>
+                <input type="text" required name="name" class="form-control" id="feedback_name"/>
+            </div>
+
+            <div class="col mb-4">
+                <label class="form-label" for="feedback_email">Email:</label>
+                <input type="email" name="email" required class="form-control" id="feedback_email"/>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg" >Send</button>
+    </form>
+
+
+</main>
+
+
+<footer>
+<p>
+            Opening Hours: <br>
+            MOn-Thu: 11a.m.-23p.m.<br>
+            Fri.-Sat 11a.m.-24p.m.<br>
+            Saturday closed<br>
+    </p>
+<p>
+         "The Pizzeria is one Place I have been <br>
+            waiting to visit for a long time. the <br>
+            reason being their Resturant pizza which <br>
+            absolutly blew me away" - Jimmy
+</p>
+
+<p>
+            Adress: <br>
+            Tony`s Pizza Factory <br>
+            2122 N Clark str. <br>
+            Chicago, IL 60614 , USA <br>
+</p>
+
+</footer>
+
+
+
+
+
+</body>
+</html>

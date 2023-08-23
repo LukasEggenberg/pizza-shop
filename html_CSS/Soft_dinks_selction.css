@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+    position: relative;
+}
+
+
+body{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: darkgrey;
+    background-image: url(../Pictures/backgroung_Grey.jpg)
+
+}
+main{
+    flex:1;
+}
+
+header nav a:hover {
+    background-color: darkgrey;
+
+}
+
+
+header {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-self: stretch;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .fanta1{
+    background-image: url(../Pictures/fanta.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+main .redbull{
+    background-image: url(../Pictures/redbull.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+
+}
+main select {
+    height: 30px;
+    background-color: darkviolet;
+    border-radius: unset;
+    color:white;
+}
+main div {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    border-style: solid;
+    align-items: center;
+    border-color: darkolivegreen;
+    background-color: rgba(100,100,250,0.5);
+
+}
+main button {
+
+    background-color: dimgray;
+
+
+}
+header > nav > a{
+    COLOR: White;
+
+    font-size: 50px;
+    text-decoration:none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+main > h1 {
+
+    color: darkolivegreen;
+    font-family: "Niagara Engraved";
+    text-align: center;
+    font-size: 100px;
+}
+main >  img {
+
+
+    align-self: center;
+}
+main > p> img {
+
+    margin-right: 100px;
+    align-self: center;
+
+}
+main > h2 {
+
+    color: White;
+    margin-right: 200px
+;
+}
+
+footer  {
+    background-color: cadetblue;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+}
