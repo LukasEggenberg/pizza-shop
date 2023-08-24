@@ -10,25 +10,13 @@ body{
     flex-direction: column;
     min-height: 100%;
     background-color: darkgrey;
-    background-image: url(../Pictures/backgroung_Grey.jpg)
+    background-image: url(../Pictures/backgroung_Grey.jpg);
 
 }
 main{
     flex:1;
 }
 
-
-
-
-header {
-    background-color: cadetblue;
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    align-self: stretch;
-    justify-content: space-around;
-    align-items: center;
-}
 
 main select {
     height: 20px;
@@ -41,33 +29,27 @@ main div {
     align-items: center;
     border-color: darkolivegreen;
     background-color: rgba(150,120,90,0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
 
 }
-main .PSelect{
-    flex:1;
+main .PSelect {
+    flex: 1;
     border: none;
-    margin-left: 20px;
     background-color: unset;
-}
-header nav a:hover {
-    background-color: darkgrey;
+    position: absolute;
+    margin-left: 600px;
+
 
 }
 
-main input {
-    height: 50px;
-    color: dimgray;
-    background-image: url(../Pictures/Shopping_Cart.jpg);
+
+main div button {
+
+    margin-right: 20px;
 
 }
-header > nav > a{
-    COLOR: White;
 
-    font-size: 50px;
-    text-decoration:none;
-    margin-right: 10px;
-    margin-left: 10px;
-}
 
 main > h1 {
 
@@ -87,22 +69,56 @@ main > p> img {
     align-self: center;
 
 }
+
 main > h2 {
 
     color: White;
-    margin-right: 200px
-;
+    margin-right: 200px;
 }
 
-footer  {
-    background-color: cadetblue;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    align-self: stretch;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 25px;
-    color: white;
+.Title {
+
+    font-size: 40px;
+    color: black;
+    margin-left: 210px;
+    position: absolute;
+
 }
+
+
+
+@media screen and (max-width: 1000px ) {
+
+    main div  {
+
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    main .PSelect {
+
+
+        justify-items: center;
+        position: unset;
+        margin-left: unset;
+
+
+    }
+
+    .Title{
+        position: unset;
+        margin-left: unset;
+
+    }
+
+        main div button {
+
+            margin-bottom: 20px;
+            margin-right: unset;
+
+        }
+    }

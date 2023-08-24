@@ -5,107 +5,74 @@ html{
 
 
 body{
+
     display: flex;
     margin: 0;
     flex-direction: column;
     min-height: 100%;
     background-color: darkgrey;
-    background-image: url(../Pictures/backgroung_Grey.jpg)
+    background-image: url(../Pictures/backgroung_Grey.jpg);
 
+
+}
+main div{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main form{
+
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+main input {
+
+    width: 300px;
+    height: 50px;
+    margin-bottom: 50px;
+
+}
+
+main #message{
+
+    width: 800px;
+    height: 200px;
 }
 main{
+
     flex:1;
-}
-
-header nav a:hover {
-    background-color: darkgrey;
-
-}
+    margin-bottom: 30px;
 
 
-header {
-    background-color: cadetblue;
-    display: flex;
-    flex-direction: row;
-    height: 100px;
-    align-self: stretch;
-    justify-content: space-around;
-    align-items: center;
-}
 
-main .fanta1{
-    background-image: url(../Pictures/fanta.jpg);
-    background-size: cover;
-    height: 200px;
-    width: 200px;
-}
-main .redbull{
-    background-image: url(../Pictures/redbull.png);
-    background-size: cover;
-    height: 200px;
-    width: 200px;
-
-
-}
-main select {
-    height: 30px;
-    background-color: bur;
-    border-radius: unset;
-}
-main div {
-    display: flex;
-    font-size: 30px;
-    justify-content: space-between;
-
-
-    background-color: darkkhaki;
-
-}
-main div {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
-
-main .row {
-
-    justify-content: flex-start;
-
-}
-main .mb-5{
-    justify-content: flex-start;
 
 }
 main button {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-left: 800px;
-    margin-top:100px;
     background-color: darkolivegreen;
     height: 50px;
     width: 200px;
     color: white;
     font-size: 30px;
 }
-textarea{
-    displayy:flex;
-   width: 1500px;
-}
-main label{
-    font-size: 50px;
-    margin-left: 30px;
-}
-header > nav > a{
-    COLOR: White;
 
-    font-size: 50px;
-    text-decoration:none;
-    margin-right: 10px;
-    margin-left: 10px;
+
+main label{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+
 }
+
 
 main > h1 {
 
@@ -114,33 +81,15 @@ main > h1 {
     text-align: center;
     font-size: 100px;
 }
-main >  img {
 
+@media screen and (max-width: 810px) {
 
-    align-self: center;
-}
-main > p> img {
+    main #message {
 
-    margin-right: 100px;
-    align-self: center;
-
-}
-main > h2 {
-
-    color: White;
-    margin-right: 200px
-;
+        width: 400px;
+        height: 800px;
+    }
 }
 
-footer  {
-    background-color: cadetblue;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
-    align-self: stretch;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    font-size: 25px;
-    color: white;
-}
+
+

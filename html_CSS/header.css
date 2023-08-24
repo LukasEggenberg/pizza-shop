@@ -1,0 +1,70 @@
+
+
+header{
+    background-color: rgba(20, 20 ,100, 0.5 );
+    display: flex;
+    flex-direction: row;
+    height: Auto;
+
+
+
+}
+header  nav   a{
+    COLOR: White;
+
+    font-size: 50px;
+    text-decoration:none;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+
+ 
+
+
+
+}
+header nav  a:hover {
+    background-color: darkgrey;
+
+}
+
+.Logo  {
+    align-self: center;
+    justify-self: start;
+    margin-left: 20px;
+
+
+}
+
+.Logo img {
+    border: 5px solid grey;
+
+}
+header nav  {
+   display: flex;
+   margin-left: 20px ;
+    align-self: center;
+    flex-direction: row;
+    justify-items: center;
+}
+
+@media screen and (max-width: 1000px ) {
+
+    header nav {
+
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+
+
+    }
+    header {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
