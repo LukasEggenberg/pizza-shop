@@ -1,20 +1,13 @@
 
-
-footer  {
-    background-color: rgba(20, 20 ,100, 0.5 );
+footer {
+    background-color: rgba(20, 20, 100, 0.5);
     height: 235px;
     display: flex;
-
     justify-content: space-around;
     align-items: center;
     font-size: 25px;
     color: white;
 }
-
-
-
-
-
 
 @media screen and (max-width: 1000px ) {
 
@@ -24,16 +17,15 @@ footer  {
         flex-direction: column;
 
 
+    }
 
-        }
-
-    footer div  {
+    footer div {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
-    }
+}
 
 
 

@@ -1,40 +1,45 @@
-html{
+html {
     height: 100%;
     position: relative;
 }
 
-
-body{
+body {
     display: flex;
     margin: 0;
     flex-direction: column;
     min-height: 100%;
-    background-color: darkgrey;
-    background-image: url(../Pictures/backgroung_Grey.jpg)
-
-}
-main{
-    flex:1;
+    background-image: url(../Pictures/Background_H.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-main button{
-
-    margin-right: 20px;
+main {
+    flex: 1;
 }
 
 main div {
     display: flex;
     flex-direction: row;
-
-
+    font-size: 30px;
+    justify-content: space-between;
+    border-style: solid;
+    align-items: center;
+    border-color: darkolivegreen;
+    background-color: rgba(250, 250, 200, 0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-    main select {
+
+main button {
+    margin-right: 20px;
+}
+
+main select {
     height: 20px;
-        background-color: darkkhaki;
-        position: absolute;
-        margin-left: 1200px;
-
-
+    background-color: darkkhaki;
+    position: absolute;
+    margin-left: 1200px;
 }
 
 main .PSelect {
@@ -43,70 +48,52 @@ main .PSelect {
     background-color: unset;
     position: absolute;
     margin-left: 700px;
-
-
 }
 
 .Title {
-
     font-size: 40px;
     color: black;
     margin-left: 210px;
     position: absolute;
-
 }
 
-main div {
-
-    display: flex;
-    font-size: 30px;
-    justify-content: space-between;
-    border-style: solid;
-    align-items: center;
- border-color: darkolivegreen;
- background-color: rgba(250,250,200,0.5);
-    margin-top: 10px;
-    margin-bottom: 10px;
-
-}
 main input {
     height: 50px;
     color: dimgray;
     background-image: url(../Pictures/Shopping_Cart.jpg);
 }
 
-
-main > h1 {
-
+main h1 {
     color: darkolivegreen;
-    font-family: "Niagara Engraved";
+    font-family: "fangsong";
     text-align: center;
     font-size: 100px;
 }
-main >  img {
 
-
+main div img {
     align-self: center;
-}
-main > p> img {
-
-    margin-right: 100px;
-    align-self: center;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
 
 }
-main > h2 {
 
+main div button img {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+
+}
+
+main h2 {
     color: White;
     margin-right: 200px;
 }
 
 
-
-
 @media screen and (max-width: 1000px ) {
 
     main div {
-
         height: auto;
         flex-direction: column;
     }
@@ -118,13 +105,9 @@ main > h2 {
     }
 
     main .PSelect {
-
-
         justify-items: center;
         position: unset;
         margin-left: unset;
-
-
     }
 
     .Title {
@@ -132,10 +115,11 @@ main > h2 {
         margin-left: unset;
 
     }
- main select {
-     position: unset;
-     margin-left: unset;
- }
+
+    main select {
+        position: unset;
+        margin-left: unset;
+    }
 }
 
 

@@ -18,6 +18,13 @@ main {
     flex: 1;
 }
 
+main select {
+    height: 30px;
+    background-color: darkviolet;
+    border-radius: unset;
+    color: white;
+}
+
 main div {
     display: flex;
     font-size: 30px;
@@ -25,12 +32,17 @@ main div {
     border-style: solid;
     align-items: center;
     border-color: darkolivegreen;
-    background-color: rgba(150, 120, 90, 0.5);
+    background-color: rgba(100, 100, 250, 0.5);
     margin-top: 10px;
     margin-bottom: 10px;
+
 }
 
-main h1 {
+main div button {
+    margin-right: 20px;
+}
+
+main > h1 {
     color: darkolivegreen;
     font-family: "fangsong";
     text-align: center;
@@ -44,11 +56,16 @@ main div img {
     width: 200px;
 }
 
-.Title {
-    font-size: 40px;
-    color: black;
-    margin-left: 210px;
-    position: absolute;
+main div button img {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+
+}
+
+main > h2 {
+    color: White;
+    margin-right: 200px;
 }
 
 main .PSelect {
@@ -56,28 +73,31 @@ main .PSelect {
     border: none;
     background-color: unset;
     position: absolute;
-    margin-left: 550px;
+    margin-left: 600px;
 }
 
-main div button {
-
-    margin-right: 20px;
-}
-
-main div button img {
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
+.Title {
+    font-size: 40px;
+    color: black;
+    margin-left: 210px;
+    position: absolute;
 }
 
 @media screen and (max-width: 1000px ) {
 
     main div {
         height: auto;
-        display: flex;
         flex-direction: column;
-        margin-top: 10px;
-        margin-bottom: 10px;
+    }
+
+    main div button {
+        margin-right: unset;
+        margin-bottom: 20px;
+    }
+
+    main div select {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     main .PSelect {
@@ -89,12 +109,7 @@ main div button img {
     .Title {
         position: unset;
         margin-left: unset;
-    }
-
-    main div button {
-
-        margin-bottom: 20px;
-        margin-right: unset;
 
     }
 }
+
