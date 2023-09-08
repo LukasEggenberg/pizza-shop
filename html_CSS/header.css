@@ -28,12 +28,12 @@ header nav a:hover {
 
 }
 
-.Logo {
+#Logo {
 
     margin-left: 20px;
 }
 
-.Logo img {
+#Logo img {
     border: 5px solid grey;
     object-fit: cover;
     height: 90px;
@@ -57,7 +57,7 @@ header nav a:hover {
         margin-top: 20px;
     }
 
-    .Logo {
+    #Logo {
         margin-top: 15px;
     }
 }
