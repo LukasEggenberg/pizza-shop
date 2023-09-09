@@ -1,0 +1,31 @@
+{
+  "pizzas":
+
+   [
+    {
+      "id": 1,
+      "img": "../Pictures/pizza_Prosciutto.jpeg",
+      "title1": "Test",
+      "Ingredients": "Tomato, mozzarella, spacy salami, chillis, oregano",
+      "Price": "5$"
+    },
+    {
+      "id": 2,
+      "img": "../Pictures/pizza_Prosciutto.jpeg",
+      "title": "Prosciutto e fungi",
+      "Ingredients": "Tomato, mozzarella, artichokes, fresh mushrooms",
+      "Price": "7$"
+    },
+    {
+      "id": 3,
+      "title": "Four Seasons",
+      "Ingredients": "Tomato, mozzarella, oregano, cucumber",
+      "Price": "10$"
+    },
+    {
+      "id": 4,
+      "title": "Stromboli",
+      "Ingredients": "Tomato, mozzarella, , spinach, oregano",
+      "Price": "12$"
+    }
+  ]}
