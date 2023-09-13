@@ -3,29 +3,36 @@
 
    [
     {
-      "id": 1,
-      "img": "../Pictures/pizza_Prosciutto.jpeg",
-      "title1": "Test",
+      "Id": 1,
+      "Img": "../Pictures/pizza_Prosciutto.jpeg",
+      "Title": "Margherita",
       "Ingredients": "Tomato, mozzarella, spacy salami, chillis, oregano",
-      "Price": "5$"
+      "Price": "5$",
+      "Cart": "../Pictures/Shopping_Cart.jpg"
     },
     {
-      "id": 2,
-      "img": "../Pictures/pizza_Prosciutto.jpeg",
-      "title": "Prosciutto e fungi",
+      "Id": 2,
+      "Img": "../Pictures/pizza-arugula.jpg",
+      "Title": "Prosciutto e fungi",
       "Ingredients": "Tomato, mozzarella, artichokes, fresh mushrooms",
-      "Price": "7$"
+      "Price": "8$",
+      "Cart": "../Pictures/Shopping_Cart.jpg"
     },
     {
-      "id": 3,
-      "title": "Four Seasons",
+      "Id": 3,
+      "Img": "../Pictures/pizza-mushroom.jpg",
+      "Title": "Four Seasons",
       "Ingredients": "Tomato, mozzarella, oregano, cucumber",
-      "Price": "10$"
+      "Price": "10$",
+      "Cart": "../Pictures/Shopping_Cart.jpg"
     },
     {
       "id": 4,
-      "title": "Stromboli",
+      "Img": "../Pictures/pizza_artichokes.jpg",
+      "Title": "Stromboli",
       "Ingredients": "Tomato, mozzarella, , spinach, oregano",
-      "Price": "12$"
+      "Price": "12$",
+      "Cart": "../Pictures/Shopping_Cart.jpg"
     }
   ]}
+

@@ -18,7 +18,7 @@ main {
     flex: 1;
 }
 
-main div{
+main div div{
     display: flex;
     font-size: 30px;
     justify-content: space-between;
@@ -43,27 +43,34 @@ main div img {
     height: 200px;
     width: 200px;
 }
-
 .Title{
     font-size: 40px;
     color: black;
     margin-left: 210px;
     position: absolute;
 }
-main .PSelect {
+ .PSelect {
     flex: 1;
     border: none;
     background-color: unset;
     position: absolute;
     margin-left: 550px;
 }
+ .Price {
+     border: none;
+     background-color: unset;
+     font-size: 40px;
+     color: darkslategray;
+     margin-left: 1210px;
+     position: absolute;
+ }
 
-main div button {
+main button {
 
     margin-right: 20px;
 }
 
-main div button img {
+main button img {
     height: 50px;
     width: 50px;
     object-fit: cover;
@@ -71,7 +78,7 @@ main div button img {
 
 @media screen and (max-width: 1000px ) {
 
-    main div {
+    main div div {
         height: auto;
         display: flex;
         flex-direction: column;
@@ -79,7 +86,7 @@ main div button img {
         margin-bottom: 10px;
     }
 
-    main .PSelect {
+     .PSelect {
         justify-items: center;
         position: unset;
         margin-left: unset;
@@ -89,8 +96,13 @@ main div button img {
         position: unset;
         margin-left: unset;
     }
+    .Price{
+        justify-items: center;
+        position: unset;
+        margin-left: unset;
+    }
 
-    main div button {
+    main  button {
 
         margin-bottom: 20px;
         margin-right: unset;
