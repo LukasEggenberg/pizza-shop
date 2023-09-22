@@ -1,38 +1,373 @@
 {
-  "pizzas":
-
-   [
+  "pizzas": [
     {
-      "Id": 1,
+      "id": 1,
       "Img": "../Pictures/pizza_Prosciutto.jpeg",
-      "Title": "Margherita",
+      "Title": "Pizza Margherita",
       "Ingredients": "Tomato, mozzarella, spacy salami, chillis, oregano",
       "Price": "5$",
+      "Value0": "Select Size",
+      "Value1": "20cm",
+      "Value2": "30cm",
+      "Value3": "50cm",
       "Cart": "../Pictures/Shopping_Cart.jpg"
     },
     {
-      "Id": 2,
+      "id": 2,
       "Img": "../Pictures/pizza-arugula.jpg",
-      "Title": "Prosciutto e fungi",
+      "Title": " Pizza Prosciutto e fungi",
       "Ingredients": "Tomato, mozzarella, artichokes, fresh mushrooms",
       "Price": "8$",
+      "Value0": "Select Size",
+      "Value1": "20cm",
+      "Value2": "30cm",
+      "Value3": "50cm",
       "Cart": "../Pictures/Shopping_Cart.jpg"
     },
     {
-      "Id": 3,
+      "id": 3,
       "Img": "../Pictures/pizza-mushroom.jpg",
-      "Title": "Four Seasons",
+      "Title": "Pizza Four Seasons",
       "Ingredients": "Tomato, mozzarella, oregano, cucumber",
       "Price": "10$",
+      "Value0": "Select Size",
+      "Value1": "20cm",
+      "Value2": "30cm",
+      "Value3": "50cm",
       "Cart": "../Pictures/Shopping_Cart.jpg"
     },
     {
       "id": 4,
       "Img": "../Pictures/pizza_artichokes.jpg",
-      "Title": "Stromboli",
+      "Title": " Pizza Stromboli",
       "Ingredients": "Tomato, mozzarella, , spinach, oregano",
       "Price": "12$",
+      "Value0": "Select Size",
+      "Value1": "20cm",
+      "Value2": "30cm",
+      "Value3": "50cm",
       "Cart": "../Pictures/Shopping_Cart.jpg"
     }
-  ]}
-
+  ],
+  "salads": [
+    {
+      "id": 5,
+      "Img": "../Pictures/Salad_green.jpg",
+      "Title": "Salad Green ",
+      "Ingredients": "Tomato, salad, nuts, onion",
+      "Price": "4$",
+      "Value0": "Select Dressing",
+      "Value1": "italian dressing",
+      "Value2": "french dressing",
+      "Value3": "Home made dressing",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    },
+    {
+      "id": 6,
+      "Img": "../Pictures/Mozzarella.jpg",
+      "Title": "Salad Tomato Mozzarella ",
+      "Ingredients": " Tomato, egg, Mozzarella, cucumber",
+      "Price": "9$",
+      "Value0": "Select Dressing",
+      "Value1": "italian dressing",
+      "Value2": "french dressing",
+      "Value3": "Home made dressing",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    },
+    {
+      "id": 7,
+      "Img": "../Pictures/salad_Index.jpeg",
+      "Title": "Salad Rocket whit Parmesan",
+      "Ingredients": "Tomato, egg, parmesan",
+      "Price": "8$",
+      "Value0": "Select Dressing",
+      "Value1": "italian dressing",
+      "Value2": "french dressing",
+      "Value3": "Home made dressing",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    },
+    {
+      "id": 8,
+      "Img": "../Pictures/Salad_egg.jpg",
+      "Title": " Salad mixed whit egg",
+      "Ingredients": "Tomato, mozzarella, , spinach, oregano",
+      "Price": "7$",
+      "Value0": "Select Dressing",
+      "Value1": "italian dressing",
+      "Value2": "french dressing",
+      "Value3": "Home made dressing",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    }
+  ],
+  "Soft_drinks": [
+    {
+      "id": 9,
+      "Img": "../Pictures/cola.jpg",
+      "Title": "Coke",
+      "Price": "4$",
+      "Value0": "Select Size",
+      "Value1": "30cl",
+      "Value2": "50cl",
+      "Value3": "100cl",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    },
+    {
+      "id": 10,
+      "Img": "../Pictures/PEPSI.jpg",
+      "Title": "Pepsi",
+      "Price": "5$",
+      "Value0": "Select Size",
+      "Value1": "30cl",
+      "Value2": "50cl",
+      "Value3": "100cl",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    },
+    {
+      "id": 11,
+      "Img": "../Pictures/red_bull.png",
+      "Title": "Red Bull",
+      "Price": "7$",
+      "Value0": "Select Size",
+      "Value1": "30cl",
+      "Value2": "50cl",
+      "Value3": "100cl",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    },
+    {
+      "id": 12,
+      "Img": "../Pictures/fanta.jpg",
+      "Title": "Fanta",
+      "Price": "3$",
+      "Value0": "Select Size",
+      "Value1": "30cl",
+      "Value2": "50cl",
+      "Value3": "100cl",
+      "Cart": "../Pictures/Shopping_Cart2.jpg"
+    }
+  ],
+  "feedback": [
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "@",
+      "phone_number": "",
+      "message": "",
+      "id": 1
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "sdfsdf",
+      "phone_number": "sdfsdf",
+      "message": "sdfsdfsdfsdf",
+      "id": 2
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "eerdsgf",
+      "phone_number": "fgdfg",
+      "message": "dfg",
+      "id": 3
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "",
+      "phone_number": "",
+      "message": "xxfghfgh",
+      "id": 4
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "",
+      "phone_number": "",
+      "message": "",
+      "id": 5
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "dsd@",
+      "phone_number": "",
+      "message": "ddddd",
+      "id": 6
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "dsd@",
+      "phone_number": "dd",
+      "message": "ddddd",
+      "id": 7
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "",
+      "phone_number": "dd",
+      "message": "ddddd",
+      "id": 8
+    },
+    {
+      "first_name": "dfdf",
+      "last_name": "df",
+      "email_address": "df",
+      "phone_number": "dddf",
+      "message": "ddddddf",
+      "id": 9
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email_address": "",
+      "phone_number": "",
+      "message": "",
+      "id": 10
+    },
+    {
+      "first_name": "sdsds",
+      "last_name": "",
+      "email_address": "",
+      "phone_number": "dssdsd",
+      "message": "sdsd",
+      "id": 11
+    }
+  ],
+  "Cart": [
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "1",
+      "Cart": {
+        "id": 5,
+        "Img": "../Pictures/Salad_green.jpg",
+        "Title": "Salad Green ",
+        "Ingredients": "Tomato, salad, nuts, onion",
+        "Price": "4$",
+        "Value0": "Select Dressing",
+        "Value1": "italian dressing",
+        "Value2": "french dressing",
+        "Value3": "Home made dressing",
+        "Cart": "../Pictures/Shopping_Cart2.jpg"
+      },
+      "id": 1
+    },
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "2",
+      "Cart": {
+        "id": 6,
+        "Img": "../Pictures/Mozzarella.jpg",
+        "Title": "Salad Tomato Mozzarella ",
+        "Ingredients": " Tomato, egg, Mozzarella, cucumber",
+        "Price": "9$",
+        "Value0": "Select Dressing",
+        "Value1": "italian dressing",
+        "Value2": "french dressing",
+        "Value3": "Home made dressing",
+        "Cart": "../Pictures/Shopping_Cart2.jpg"
+      },
+      "id": 2
+    },
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "3",
+      "Cart": {
+        "id": 7,
+        "Img": "../Pictures/salad_Index.jpeg",
+        "Title": "Salad Rocket whit Parmesan",
+        "Ingredients": "Tomato, egg, parmesan",
+        "Price": "8$",
+        "Value0": "Select Dressing",
+        "Value1": "italian dressing",
+        "Value2": "french dressing",
+        "Value3": "Home made dressing",
+        "Cart": "../Pictures/Shopping_Cart2.jpg"
+      },
+      "id": 3
+    },
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "3",
+      "Cart": {
+        "id": 8,
+        "Img": "../Pictures/Salad_egg.jpg",
+        "Title": " Salad mixed whit egg",
+        "Ingredients": "Tomato, mozzarella, , spinach, oregano",
+        "Price": "7$",
+        "Value0": "Select Dressing",
+        "Value1": "italian dressing",
+        "Value2": "french dressing",
+        "Value3": "Home made dressing",
+        "Cart": "../Pictures/Shopping_Cart2.jpg"
+      },
+      "id": 4
+    },
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "2",
+      "Cart": {
+        "id": 1,
+        "Img": "../Pictures/pizza_Prosciutto.jpeg",
+        "Title": "Pizza Margherita",
+        "Ingredients": "Tomato, mozzarella, spacy salami, chillis, oregano",
+        "Price": "5$",
+        "Value0": "Select Size",
+        "Value1": "20cm",
+        "Value2": "30cm",
+        "Value3": "50cm",
+        "Cart": "../Pictures/Shopping_Cart.jpg"
+      },
+      "id": 5
+    },
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "3",
+      "Cart": {
+        "id": 9,
+        "Img": "../Pictures/cola.jpg",
+        "Title": "Coke",
+        "Price": "4$",
+        "Value0": "Select Size",
+        "Value1": "30cl",
+        "Value2": "50cl",
+        "Value3": "100cl",
+        "Cart": "../Pictures/Shopping_Cart2.jpg"
+      },
+      "id": 6
+    },
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "2",
+      "Cart": {
+        "id": 9,
+        "Img": "../Pictures/cola.jpg",
+        "Title": "Coke",
+        "Price": "4$",
+        "Value0": "Select Size",
+        "Value1": "30cl",
+        "Value2": "50cl",
+        "Value3": "100cl",
+        "Cart": "../Pictures/Shopping_Cart2.jpg"
+      },
+      "id": 7
+    },
+    {
+      "USERID": "g8asck0bqnn2nyj5wg6k5v",
+      "Option1": "2",
+      "Cart": {
+        "id": 9,
+        "Img": "../Pictures/cola.jpg",
+        "Title": "Coke",
+        "Price": "4$",
+        "Value0": "Select Size",
+        "Value1": "30cl",
+        "Value2": "50cl",
+        "Value3": "100cl",
+        "Cart": "../Pictures/Shopping_Cart2.jpg"
+      },
+      "id": 8
+    }
+  ]
+}

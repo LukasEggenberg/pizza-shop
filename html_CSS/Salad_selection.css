@@ -18,7 +18,7 @@ main {
     flex: 1;
 }
 
-main div {
+main div form {
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -31,18 +31,26 @@ main div {
     margin-bottom: 10px;
 }
 
-main button {
+#ButtonCart1 {
     margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkolivegreen;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-size: 30px;
 }
 
 main select {
     height: 20px;
     background-color: darkkhaki;
     position: absolute;
-    margin-left: 1200px;
+    margin-left: 1350px;
 }
 
-main .PSelect {
+ .PSelect {
     flex: 1;
     border: none;
     background-color: unset;
@@ -56,11 +64,18 @@ main .PSelect {
     margin-left: 210px;
     position: absolute;
 }
+.Price {
+    border: none;
+    background-color: unset;
+    font-size: 40px;
+    color: darkslategray;
+    margin-left: 800px;
+}
 
 main input {
     height: 50px;
     color: dimgray;
-    background-image: url(../Pictures/Shopping_Cart.jpg);
+
 }
 
 main h1 {
@@ -93,7 +108,7 @@ main h2 {
 
 @media screen and (max-width: 1000px ) {
 
-    main div {
+    main div form {
         height: auto;
         flex-direction: column;
     }

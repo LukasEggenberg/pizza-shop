@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 
     <meta charset="UTF-8">
@@ -26,7 +26,7 @@
     <h1>Feedback</h1>
 
 
-    <form name="Feedback" method="post">
+    <form name="Feedback" id="Feedback" method="post">
 
 
         <div><label for="first_name">First name</label>
@@ -37,18 +37,20 @@
             <input type="text" id="last_name" name="last_name"></div>
 
         <div><label for="email_address"> E-mail Address</label>
-            <input type="email" id="email_address" name="email_address"></div>
+            <input type="text" id="email_address" name="email_address"></div>
 
         <div><label for="phone_number"> Phone number </label>
             <input type="tel" id="phone_number" name="phone_number"></div>
 
         <div><label for="message">Your message</label>
-            <input type="text" id="message" name="message"></div>
+            <input type="text" id="message" name="message"> </div>
+
+        <div id="message-container1"></div>
+        <div id="message-container2"></div>
 
 
-        <div>
-            <button type="submit" class="submit">Send</button>
-        </div>
+            <div> <button type="submit" id="ButtonS">Send</button> </div>
+
 
 
     </form>
@@ -61,11 +63,11 @@
 
     <div id="opening"></div>
 
-
     <div id="About"></div>
 
-
     <div id="Address"></div>
+
+    <div id="Copyright"></div>
 
 </footer>
 

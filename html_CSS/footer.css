@@ -1,13 +1,26 @@
 
 footer {
     background-color: rgba(20, 20, 100, 0.5);
-    height: 235px;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 25px;
     color: white;
 }
+footer .About   {
+
+
+}
+.Copyright{
+    flex-grow: 13;
+    justify-content: space-between;
+    color:Black;
+    font-size: 20px;
+}
+
+
 
 @media screen and (max-width: 1000px ) {
 

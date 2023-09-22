@@ -17,8 +17,7 @@ body {
 main {
     flex: 1;
 }
-
-main div div{
+main div form {
     display: flex;
     font-size: 30px;
     justify-content: space-between;
@@ -61,8 +60,7 @@ main div img {
      background-color: unset;
      font-size: 40px;
      color: darkslategray;
-     margin-left: 1210px;
-     position: absolute;
+     margin-left: 800px;
  }
 
 main button {
@@ -99,7 +97,7 @@ main button img {
     .Price{
         justify-items: center;
         position: unset;
-        margin-left: unset;
+        margin-right: unset;
     }
 
     main  button {
@@ -108,4 +106,10 @@ main button img {
         margin-right: unset;
 
     }
+}
+@media screen and (max-width: 1400px ) {
+    .PSelect {
+        width:250px;
+    }
+
 }

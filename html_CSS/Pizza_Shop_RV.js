@@ -19,12 +19,19 @@ document.getElementById("opening").innerHTML =
     "Saturday closed<br>" +
     "<br>"
 
+document.getElementById("Copyright").innerHTML =
+    "<h4> &copy; 2023 Payrexx AG All right reserved. " +
+    "&emsp; &emsp; &emsp; &emsp; " +
+    "Webdesign by Lukas Eggnebrg</h4>"
+
+
 document.getElementsByTagName("nav")[0].innerHTML =
     "<a href=Pizza-Shop.html> Home </a>" +
     "<a href=Pizza_Selection.html> Pizza</a>" +
     "<a href=Salad_Selections.html> Salad</a>" +
     "<a href=Soft_drinks_Selection.html> Soft drinks</a>" +
-    "<a href=Feedback.html> Feedback</a>"
+    "<a href=Feedback.html> Feedback</a>" +
+    "<a href=Cart.html> Shopping Cart </a>"
 
 document.getElementById("Logo").innerHTML =
     "<img src=../Pictures/Logo.jpg height=5472 width=3648 alt=Logo/>"
@@ -36,38 +43,3 @@ document.getElementById("Logo").innerHTML =
 
 
 
-const jsonUrl = 'http://localhost:3000/pizzas';
-
-const container = document.getElementById("pizzas");
-
-
-    fetch(jsonUrl)
-        .then( (response) =>{
-            return response.json();
-        })
-        .then( (data) =>{
-
-            data.forEach((pizza) =>{
-
-                const tmp = document.createElement("div")
-                tmp.innerHTML =
-                    "<div class=Title></div>" +
-                    "<div class=PSelect></div>" +
-                    "<img class=img1 src=/ alt='Test'/>" +
-                    "<div class=Price></div>" +
-                    "<button class=buttonCart> <img class=imgCart src=/ alt='Cart'/> </button>"
-
-
-
-                tmp.getElementsByClassName("Title")[0].innerText = pizza.Title;
-                tmp.getElementsByClassName("PSelect")[0].innerText = pizza.Ingredients;
-                tmp.getElementsByClassName("img1")[0].setAttribute("src", pizza.Img);
-                tmp.getElementsByClassName("Price")[0].innerText = pizza.Price;
-                tmp.getElementsByClassName("imgCart")[0].setAttribute("src", pizza.Cart);
-
-
-                container.appendChild(tmp);
-
-
-             })
-        })

@@ -25,7 +25,7 @@ main select {
     color: white;
 }
 
-main div {
+main div form {
     display: flex;
     font-size: 30px;
     justify-content: space-between;
@@ -81,6 +81,13 @@ main .PSelect {
     color: black;
     margin-left: 210px;
     position: absolute;
+}
+.Price {
+    border: none;
+    background-color: unset;
+    font-size: 40px;
+    color: darkslategray;
+    margin-left: 800px;
 }
 
 @media screen and (max-width: 1000px ) {
