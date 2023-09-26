@@ -23,18 +23,18 @@ main > h1 {
     text-align: center;
     font-size: 100px;
 }
-main button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: darkolivegreen;
+main div button img {
+    object-fit: cover;
     height: 50px;
-    width: 200px;
-    color: white;
-    font-size: 30px;
+    width: 50px;
+
+}
+#ButtonS {
+
+    margin-right: 20px;
 }
 
-main div div {
+main div form {
     display: flex;
     font-size: 30px;
     justify-content: space-between;
@@ -63,7 +63,7 @@ main div img {
     background-color: unset;
     font-size: 40px;
     color: darkslategray;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 .PSelect {
     flex: 1;
@@ -72,3 +72,4 @@ main div img {
     position: absolute;
     margin-left: 750px;
 }
+

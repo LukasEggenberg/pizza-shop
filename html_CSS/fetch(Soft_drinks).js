@@ -19,8 +19,8 @@ fetch(jsonUrl)
                 "<div class=PSelect></div>" +
                 "<img class=img1 src=/ alt='Test'/>" +
                 "<div class=Price></div>" +
-                "<label for=size> </label>" +
-                `<select name="size" class="size">` +
+                "<label for=sizeS> </label>" +
+                `<select name="sizeS" class="sizeS">` +
                 "<option class=Value0 value=0></option>" +
                 "<option class=Value1 value=1></option>" +
                 "<option class=Value2 value=2></option>" +
@@ -41,7 +41,7 @@ fetch(jsonUrl)
             tmp.getElementsByClassName("Value2")[0].innerText = Soft_drink.Value2;
             tmp.getElementsByClassName("Value3")[0].innerText = Soft_drink.Value3;
             tmp.getElementsByClassName("inputID")[0].setAttribute("value", Soft_drink.id);
-            tmp.getElementsByClassName("product-item")[0].addEventListener("submit", submitEvent);
+            tmp.getElementsByClassName("product-item")[0].addEventListener("submit", submitEvent1);
 
 
             container.appendChild(tmp);

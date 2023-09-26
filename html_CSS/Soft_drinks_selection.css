@@ -81,6 +81,8 @@ main .PSelect {
     color: black;
     margin-left: 210px;
     position: absolute;
+    border-style: solid;
+    border-color: darkolivegreen;
 }
 .Price {
     border: none;
@@ -90,9 +92,9 @@ main .PSelect {
     margin-left: 800px;
 }
 
-@media screen and (max-width: 1000px ) {
+@media screen and (max-width: 1300px ) {
 
-    main div {
+    main form {
         height: auto;
         flex-direction: column;
     }
@@ -117,6 +119,16 @@ main .PSelect {
         position: unset;
         margin-left: unset;
 
+    }
+    .Price{
+        justify-items: center;
+        position: unset;
+        margin-left: unset;
+    }
+
+    main select {
+        position: unset;
+        margin-left: unset;
     }
 }
 

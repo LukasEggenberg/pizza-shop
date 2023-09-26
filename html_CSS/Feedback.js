@@ -124,7 +124,7 @@
    const ButtonBlocked = document.getElementById("ButtonS")
    form.addEventListener("submit" , (y) => {
 
-       if ( (messageContainer1.length > 2 ) && (messageContainer2.length >2))
+        // if ( (messageContainer1.length > 2 ) && (messageContainer2.length >2))
        {
 
                y.preventDefault()

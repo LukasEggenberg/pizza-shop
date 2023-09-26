@@ -44,10 +44,10 @@ main div form {
 }
 
 main select {
-    height: 20px;
     background-color: darkkhaki;
-    position: absolute;
-    margin-left: 1350px;
+        height: 30px;
+        border-radius: unset;
+        color: white;
 }
 
  .PSelect {
@@ -63,7 +63,10 @@ main select {
     color: black;
     margin-left: 210px;
     position: absolute;
+    border-style: solid;
+    border-color: darkolivegreen;
 }
+
 .Price {
     border: none;
     background-color: unset;
@@ -106,7 +109,7 @@ main h2 {
 }
 
 
-@media screen and (max-width: 1000px ) {
+@media screen and (max-width: 1300px ) {
 
     main div form {
         height: auto;
@@ -130,6 +133,11 @@ main h2 {
         margin-left: unset;
 
     }
+    .Price{
+        justify-items: center;
+        position: unset;
+        margin-left: unset;
+    }
 
     main select {
         position: unset;
@@ -138,6 +146,11 @@ main h2 {
 }
 
 
+@media screen and (max-width: 1500px ) {
+    .PSelect {
+        width: 250px;
+
+    }}
 
 
 

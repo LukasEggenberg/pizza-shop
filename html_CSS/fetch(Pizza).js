@@ -41,7 +41,7 @@ fetch(jsonUrl)
             tmp.getElementsByClassName("Value3")[0].innerText = pizza.Value3;
             tmp.getElementsByClassName("imgCart")[0].setAttribute("src", pizza.Cart);
             tmp.getElementsByClassName("inputID")[0].setAttribute("value", pizza.id);
-            tmp.getElementsByClassName("product-item")[0].addEventListener("submit", submitEvent);
+            tmp.getElementsByClassName("product-item")[0].addEventListener("submit", submitEvent1);
 
 
             container.appendChild(tmp);

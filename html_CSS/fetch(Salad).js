@@ -42,7 +42,7 @@ fetch(jsonUrl)
             tmp.getElementsByClassName("Value2")[0].innerText = salad.Value2;
             tmp.getElementsByClassName("Value3")[0].innerText = salad.Value3;
             tmp.getElementsByClassName("inputID")[0].setAttribute("value", salad.id);
-            tmp.getElementsByClassName("product-item")[0].addEventListener("submit", submitEvent);
+            tmp.getElementsByClassName("product-item")[0].addEventListener("submit", submitEvent1);
 
 
             container.appendChild(tmp);
